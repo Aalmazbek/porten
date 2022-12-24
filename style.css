@@ -1,0 +1,877 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+
+hr{
+    background-color: white;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+.main{
+    height: 100vh;
+}
+
+.top{
+    width: 70%;
+    height: 7%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.top .number{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    font-size: 12px;
+    font-weight: 100;
+    align-items: center;
+}
+
+.top .number h3{
+    color: #969696;
+}
+
+.top .number img{
+    width: 25px;
+    margin-right: 15px;
+}
+
+.top .login{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.top .login span{
+    color: #969696;
+}
+
+.top .login img{
+    width: 20px;
+}
+
+.top .login a{
+    text-decoration: none;
+    color: #969696;
+
+}
+
+.top .login a:hover{
+    text-decoration: underline;
+}
+
+
+header{
+    height: 10%;
+    background-color: #0F0F0F;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container img{
+    width: 10%;
+}
+
+.container div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container a{
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 0 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.container a:nth-of-type(1){
+    color: rgba(255, 255, 255, 0.505);
+}
+
+
+.container a:nth-of-type(2){
+    color: rgba(255, 255, 255, 0.505);
+}
+
+.container a:nth-of-type(3){
+    color: rgba(255, 255, 255, 0.505);
+}
+
+.container a:hover{
+    color: white;
+    background-color: #1F1F1F;
+}
+
+.container a img{
+    width: 100%;
+}
+
+.container > a img{
+    width: 24px;
+}
+
+.container > a{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+main{
+    height: 90%;
+    background-image: url(./img/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 800px;
+}
+
+main .logo{
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    border: 4px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+
+main .logo img{
+    width: 70%;
+}
+
+main .logo h2{
+    border-top: 2px solid white;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+/* main .logo hr{
+    width: 75%;
+    margin: 2% 0;
+} */
+
+main p{
+    margin: 2% auto;
+    width: 45%;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
+.collections{
+    height: 140vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.season2020{
+    width: 55%;
+    height: 80vh;
+    text-align: center;
+}
+
+.season2020 h1{
+    font-size: 36px;
+    margin-top: 8%;
+}
+
+.season2020 hr{
+    width: 100px;
+    margin: 5% auto;
+}
+
+
+.products{
+    height: 55%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.products .product{
+    width: 25%;
+    height: 100%;
+    text-align: start;
+}
+
+.products .product div{
+    width: 100%;
+    height: 80%;
+    background-color: #191B1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products .product div img{
+    width: 90%;
+}
+
+
+.products .product h4, p{
+    margin-top: 5%;
+}
+
+
+
+
+
+.new_collection{
+    width: 45%;
+    height: 80vh;
+    background-image: url(./img/background2.png);
+    background-size: cover;
+    text-align: center;
+}
+
+.new_collection h1{
+    margin-top: 55%;
+}
+
+.new_collection hr{
+    width: 120px;
+    margin: 3% auto;
+    margin-bottom: 6%;
+}
+
+.new_collection a, .collection2018 a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 28px;
+    border: 1px solid white;
+    font-family: PT Sans, sans-serif;
+    transition: 0.3s;
+}
+
+.new_collection a:hover, .collection2018 a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.costume{
+    width: 45%;
+    height: 60vh;
+    background-image: url(./img/background3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+
+
+
+
+
+
+
+
+
+.collection2018{
+    width: 55%;
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.collection2018 h1{
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.collection2018 hr{
+    width: 120px;
+}
+
+.collection2018 p{
+    width: 60%;
+    font-size: 14px;
+    margin-top: -1%;
+}
+
+.collection2018 a{
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+.new_arrivals{
+    height: 150vh;
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 1500px;
+}
+
+.new_arrivals h1{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.new_arrivals hr{
+    width: 120px;
+    margin: 2% auto;
+    margin-bottom: 5%;
+}
+
+.new_arrivals .products{
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: start;
+}
+
+.new_arrivals .products .product{
+    height: 45%;
+    width: 20%;
+    margin: 0 1%;
+}
+
+
+
+
+
+
+
+
+
+
+.brands{
+    height: 40vh;
+    text-align: center;
+    background-color: #0F0F0F;
+    font-family: 'Playfair Display', serif;
+    padding-top: 2%;
+    max-height: 350px;
+    
+}
+
+.brands h1{
+    font-size: 36px;
+}
+
+.brands hr{
+    width: 120px;
+    margin: 2% auto;
+}
+
+.brand_logos{
+    width: 56%;
+    height: 40%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand_logos img{
+    width: 24%;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 40vh;
+    background-image: url(./img/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+    font-family: 'Playfair Display', serif;
+    max-height: 350px;
+}
+
+footer h1{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+footer p{
+    font-size: 14px;
+}
+
+footer div{
+    width: 31%;
+    height: 65%;
+}
+
+footer .tags{
+    width: 100%;
+    height: 50%;
+    margin-top: 10%;
+}
+
+footer .tags .topside, .bottomside{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .tags .bottomside{
+    margin-top: 3%;
+}
+
+footer .tags a{
+    background-color: #0F0F0F;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 0 0 20px 0px rgba(255,255,255,0.05);
+    transition: 0.2s;
+    height: 100%;
+    flex-grow: 1;
+    margin: 0 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .tags a:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+footer .follow .input{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-top: 10%;
+}
+
+footer .follow .input input{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding-left: 10px;
+    outline: none;
+    transition: 0.2s;
+}
+
+footer .follow .input input:focus{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+footer .follow .input input::-webkit-input-placeholder{
+    color: white;
+}
+
+footer .follow .input button{
+    background-color: black;
+    padding: 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
+
+footer .follow .input button:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+.underfooter{
+    width: 100%;
+    height: 7vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.underfooter h5{
+    font-size: 12px;
+    font-weight: 100;
+    color: #969696;
+    margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+
+    .top{
+        display: none;
+    }
+
+    header .container{
+        width: 85%;
+        margin-left: 9.5%;
+    }
+
+    header .container > img{
+        width: 30%;
+    }
+
+    header .container div{
+        display: none;
+    }
+
+    .container > a{
+        display: flex;
+        align-items: center;
+    }
+
+    main p{
+        margin: 0 auto;
+        margin-top: 10%;
+        width: 85%;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    main .logo{
+        max-width: 290px;
+        max-height: 290px;
+    }
+
+
+
+
+
+    .collections{
+        height: 370vh;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .collections > div{
+        width: 100%;
+    }
+
+
+
+
+
+    .season2020{
+        height: 200vh;
+        padding-bottom: 10vh;
+    }
+
+    .season2020 h1{
+        font-size: 2em;
+        margin-top: 7vh;
+    }
+
+    .season2020 hr{
+        margin: 10% auto;
+    }
+
+    .season2020 .products{
+        
+        height: 85%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .season2020 .products .product{
+        width: 70%;
+        height: 30%;
+        text-align: center;
+    }
+
+
+    .season2020 .products .product img{
+        width: 60%;
+    }
+
+    .season2020 .products .product h4, p{
+        font-size: 1.5em;
+    }
+
+
+
+
+
+    .new_collection{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .new_collection h1{
+        margin: 0;
+        font-weight: 800;
+        font-size: 1.7em;
+    }
+
+    .new_collection hr{
+        margin: 10% auto;
+    }
+
+    .new_collection a{
+        padding: 25px 80px;
+        font-size: 1.5em;
+    }
+
+
+
+
+
+    .costume{
+        height: 40vh;
+    }
+
+
+
+
+
+    .collection2018{
+        height: 80vh;
+    }
+
+    .collection2018 h1{
+        font-size: 2em;
+    }
+
+    .collection2018 p{
+        width: 85%;
+        font-size: 1em;
+    }
+
+    .collection2018 a{
+        padding: 20px 20px;
+        font-size: 1.3em;
+    }
+
+
+
+
+
+
+
+
+
+
+    .new_arrivals{
+        max-height: none;
+        height: 160vh;
+        justify-content: space-evenly;
+    }
+
+    .new_arrivals h1{
+        font-size: 2em;
+        width: 80%;
+    }
+
+    .new_arrivals .products{
+        width: 90%;
+        height: 130vh;
+    }
+
+    .new_arrivals .products .product{
+        width: 45%;
+        height: 24%;
+        text-align: center;
+    }
+
+    .new_arrivals .products .product > div{
+        height: 70%;
+    }
+
+    .new_arrivals .products .product img{
+        width: 70%;
+    }
+
+    .new_arrivals .products .product h1, hr{
+        margin: 0;
+    }
+
+    .new_arrivals .products .product p{
+        font-size: 1em;
+    }
+
+
+
+
+
+
+
+
+
+
+    .brands{
+        max-height: none;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .brands h1{
+        font-size: 2em;
+    }
+
+    .brands hr{
+        margin: 8% auto;
+    }
+
+    .brand_logos{
+        flex-direction: column;
+        width: 90%;
+        height: 70%;
+    }
+
+    .brand_logos img{
+        width: 70%;
+    }
+
+
+
+
+
+
+    footer{
+        max-height: none;
+        height: 130vh;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    footer > div{
+        width: 80%;
+        text-align: center;
+    }
+
+    footer .about{
+        margin-top: 10vh;
+    }
+
+    footer .follow .input{
+        width: 90%;
+        height: 100px;
+        margin: 3vh auto;
+        flex-direction: column;
+    }
+
+    footer .follow .input input{
+        height: 45%;
+        margin-bottom: 5%;
+    }
+
+    footer .follow .input button{
+        height: 45%;
+    }
+
+    .underfooter{
+        height: 46px;
+    }
+}
