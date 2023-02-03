@@ -17,6 +17,15 @@ body{
     overflow-x: hidden;
 }
 
+body::-webkit-scrollbar{
+    width: 5px;
+    background: none;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: white;
+}
+
 
 .main{
     height: 100vh;
