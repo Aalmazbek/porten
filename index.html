@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div class="modal">
+        <div class="modal-content">
+            <a href="#">ПОНРАВИЛОСЬ</a>
+            <a href="#">ЛИЧНЫЙ КАБИНЕТ</a>
+            <a href="#">НАСТРОЙКИ</a>
+        </div>
+    </div>
+
     <section class="main">
 
         <div class="top">
@@ -42,13 +51,15 @@
                     </a>
                 </div>
 
-                <a href="#">
-                    <img src="./img/menu-4-128.png" alt="">
-                </a>
+                <button id="burger-menu">
+                    <img id="burger-img" src="./img/menu-4-128.png" alt="">
+                    <span class="hidden" id="span">X</span>
+                </button>
             </div>  
 
         </header>
 
+        
         <main>
             <div class="logo">
                 <img src="./img/PORTEN.svg" alt="">
@@ -57,8 +68,9 @@
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est tortor pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum nec ut iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. Tortor nibh magna feugiat id nunc, dui nisl viverra.</p>
         </main>
-
+        
     </section>
+    
 
     <section class="collections">
         <div class="season2020">
@@ -222,5 +234,7 @@
     <div class="underfooter">
         <h5>&copy; 2020 Все права защищены</h5>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
